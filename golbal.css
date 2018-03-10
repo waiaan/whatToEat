@@ -1,0 +1,98 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+	margin: 0;
+	padding: 0
+}
+body {
+	font: 24px"宋体", "Arial Narrow", HELVETICA;
+	background: #fff;
+	-webkit-text-size-adjust: 100%;
+}
+a {
+	color: #2d374b;
+	text-decoration: none
+}
+a:hover {
+	color: #cd0200;
+	text-decoration: underline
+}
+em {
+	font-style: normal
+}
+li {
+	list-style: none
+}
+img {
+	border: 0;
+	vertical-align: middle
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+p {
+	word-wrap: break-word
+}
+button {
+	font-size: 14px;
+	padding: 5px 14px;
+}
+.padTB5 {
+	padding: 5px 0;
+}
+.padRF10 {
+	padding: 0 10px;
+}
+.mar-T20 {
+	margin-top: 20px;
+}
+.fl {
+	float: left;
+}
+.clearflx:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.main {
+	text-align: center;
+	margin-top: 50px;
+}
+.cont {
+	display: inline-block;
+}
+.tit li,
+.list li,
+.cont p {
+	padding: 5px 10px;
+	width: 150px;
+}
+.cont div {
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+}
+.cont button {
+	margin: 10px 0;
+}
+.list {
+	position: absolute;
+}
